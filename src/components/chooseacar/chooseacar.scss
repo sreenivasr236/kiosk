@@ -1,0 +1,72 @@
+
+.choose-a-car {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    h3 {
+        width: 90%;
+        margin: 0 auto;
+        font-family: AvenirNextLTPro-B;
+        font-size: 22px;
+        line-height: 30px;
+        color: #584B42;
+        padding-bottom: 22px;
+    }
+
+.choose-a-car-container{
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    .card {
+        width: 31%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    .checkbox-alias {
+        padding: 150px 24px 24px;
+    }
+}
+}
+.checkbox-alias {
+    background-color: #fff;
+    display: inline-block;
+    
+    z-index: 1;
+    position: relative;
+    transition: all 250ms ease-out;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+    // min-height: 290px;
+    border-radius: 12px;
+    text-align: center;
+
+    h4 {
+        font-family: AvenirNextLTPro-B;
+        font-size: 22px;
+        line-height: 30px;
+        color: #584B42;
+    }
+    p {
+        font-family: AvenirNextLTPro-Light;
+        font-size: 11px;
+        line-height: 13px;
+        color: #584B42;
+    }
+}
+.choose-a-car input[type=radio]{
+  display: none;
+/*   margin-right: -20px;
+  position: relative;
+  z-index: 2; */
+}
+
+.choose-a-car input[type=radio]:checked + .checkbox-alias{
+    background: linear-gradient(180deg, #F0622E 0%, #EE2B4E 100%) 0% 0%;
+}
+.choose-a-car input[type=radio]:checked + .checkbox-alias p, .choose-a-car input[type=radio]:checked + .checkbox-alias h4 {
+    color: #fff;
+}

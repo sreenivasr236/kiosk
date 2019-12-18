@@ -1,8 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +7,36 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face {
+  font-family: HelveticaNeue-B;
+  src: url('../src/Assests/Fonts/HelveticaNeue-Bold.woff2');
+}
+@font-face {
+  font-family: HelveticaNeue-M;
+  src: url('../src/Assests/Fonts/HelveticaNeue-Medium.woff2');
+}
+
+
+@font-face {
+  font-family:Firesans-M;
+  src: url('https://fonts.googleapis.com/css?family=Fira+Sans:500&display=swap');
+}
+
+
+@font-face {
+  font-family: AvenirNextLTPro-B;
+  src: url('../src/Assests/Fonts/Avenir-Next-Font/AvenirNextLTPro-Bold.otf');
+}
+@font-face {
+  font-family: AvenirNextLTPro-Demi;
+  src: url('../src/Assests/Fonts/Avenir-Next-Font/AvenirNextLTPro-Demi.otf');
+}
+@font-face {
+  font-family: AvenirNextLTPro-R;
+  src: url('../src/Assests/Fonts/Avenir-Next-Font/AvenirNextLTPro-Regular.otf');
+}
+@font-face {
+  font-family: AvenirNextLTPro-Light;
+  src: url('../src/Assests/Fonts/Avenir-Next-Font/AvenirNextLTPro-It.otf');
 }

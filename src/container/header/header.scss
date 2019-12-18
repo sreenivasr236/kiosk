@@ -1,0 +1,47 @@
+section.header {
+    height: 75px;
+    .header-conatiner {
+        display: inline-block;
+        width: 100%;
+    }
+    .logo {
+        width: 50%;
+        display: inline-block;
+    }
+    .help {
+        width: 50%;
+        display: inline-block;
+        text-align: right;
+        vertical-align: super;
+        .help-logo {
+            width: auto;
+            display: inline-block;
+        }
+        .help-info {
+            width: auto;
+            display: inline-block;
+            vertical-align: super;
+            padding-left: 24px;
+        
+                .help-text{
+                color: #584B42;
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: capitalize;
+                display: block;
+                text-align: left;
+                font-family: HelveticaNeue-M;
+            }
+            span.help-mob {
+                color: #584B42;
+                font-size: 20px;
+                line-height: 25px;
+                font-family: HelveticaNeue-M;
+                display: block;
+                text-align: left;
+            }
+         
+            
+        }
+    }
+}

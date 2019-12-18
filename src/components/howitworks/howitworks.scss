@@ -1,0 +1,45 @@
+.content {
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     h3 {
+        font-size: 22px;
+        line-height: 30px;
+        color: #584B42;
+        font-family: AvenirNextLTPro-B;
+    }
+    .card {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 38px;
+        .logo {
+            width: 20%;
+            display: inline-block;
+            text-align: center;
+            
+        }
+        .card-desc {
+            width: 80%;
+            display: inline-block;
+            vertical-align: super;
+            .title {
+                font-family: AvenirNextLTPro-Demi;
+                font-size: 20px;
+                line-height: 27px;
+                color: #584B42;
+                margin: 0;
+            }
+            p.desc {
+                font-family: AvenirNextLTPro-Light;
+                color: #584B42;
+                font-size: 14px;
+                line-height: 19px;
+                margin: 0;
+            }
+        }
+        
+    }
+}

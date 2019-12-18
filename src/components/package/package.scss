@@ -1,0 +1,85 @@
+.packages {
+
+    .package-card {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        overflow: hidden;
+
+    .product {
+        width: 30%;
+        min-height: 205px;
+        background: #fff;
+        display: inline-block;
+        box-shadow: 0px 3px 6px #00000029;
+        padding: 24px;
+        box-sizing: border-box;
+        text-align: left;
+        margin: 14px;
+        .button {
+            width: auto;
+            display: inline-block;
+            float: right;
+
+         button {
+                background: transparent;
+                color: #8B4367;
+                outline: none;
+                border: none;
+                text-transform: capitalize;
+                font-family: AvenirNextLTPro-Demi;
+                font-size: 16px;
+                line-height: 22px;
+                cursor: pointer;
+            }
+        }
+        .info{
+            width: auto;
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 6px;
+        }
+         h4 {
+            font-family: AvenirNextLTPro-R;
+            font-size: 20px;
+            line-height: 27px;
+            color: #584B42;
+            width: auto;
+            display: inline-block;
+        }
+         p {
+            font-family: AvenirNextLTPro-Light;
+            color: #5D5D5D;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        span {
+            font-family: HelveticaNeue-M;
+            color: #5D5D5D;
+            font-size: 18px;
+            line-height: 15px;
+        }
+        
+        
+    }
+}
+
+    h3 {
+        color: #584B42;
+        font-family: AvenirNextLTPro-B;
+        font-size: 22px;
+        line-height: 30px;
+        margin: 32px 0;
+        span {
+            font-family: HelveticaNeue-M;
+            color: #8B4367;
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: normal;
+            border-bottom: 1px dotted;
+            cursor: pointer;
+        }
+    }
+    
+    
+}
